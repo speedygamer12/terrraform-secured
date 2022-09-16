@@ -1,12 +1,12 @@
 # Terraform DevOps
-![Build-workflow](https://github.com/speedygamer12/az-terraform-secured/actions/workflows/setup-workflow.yml/badge.svg)
+![Build-workflow](https://github.com/speedygamer12/terrraform-secured/actions/workflows/setup-workflow.yml/badge.svg)
 <hr />
 
 ## What is this project?
 Azure infrastructures deployed using Terraform, while implementing static code analysis, vulnerability-checks, compliance-testing, remote state management.
 
 > Run code:
-- Configure Azure on Linux: ![here](https://docs.microsoft.com/en-us/azure/developer/terraform/get-started-cloud-shell-bash?tabs=bash)
+- Configure Azure on Linux: [here](https://docs.microsoft.com/en-us/azure/developer/terraform/get-started-cloud-shell-bash?tabs=bash)
 - Clone repository and change directory: 
 `git clone https://github.com/speedygamer12/az-terraform-secured && cd az-terraform-secured`
 - Create Remote State with Azure Storage: `make state`
