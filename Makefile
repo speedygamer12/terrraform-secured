@@ -41,7 +41,7 @@ compliance_test:
 
 state:
 	@echo "Creating Remote terraform state"
-	cd terraform-state-storage; terraform apply
+	cd terraform-state-storage; terraform init; terraform apply
 
 
 # end_to_end_testing:
